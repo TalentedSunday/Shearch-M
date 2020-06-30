@@ -1,0 +1,2 @@
+document.getElementById("products").innerHTML = "<%= escape_javascript render(partial: 'products/products', locals: { products: @products }) %>";
+document.getElementById("paginate").innerHTML = "<%= escape_javascript render(partial: 'products/paginate', locals: { products: @products }) %>";
